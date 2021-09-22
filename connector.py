@@ -23,3 +23,5 @@ for element in network_info.split(', '):
     dictionary = element.split('=', 1)
     ssid_info.update({dictionary[0]: dictionary[1]})
 print(dumps(ssid_info, indent=2))
+
+interface.associateToNetwork_password_error_(network, environ.get('password'), None)
