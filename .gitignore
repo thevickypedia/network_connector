@@ -2,3 +2,9 @@
 .idea
 __pycache__
 venv
+
+# SSID information stored as a JSON file
+*.json
+
+# Env vars stored in .env file
+.env
